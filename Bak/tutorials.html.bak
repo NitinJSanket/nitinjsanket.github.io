@@ -1,0 +1,324 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Personal</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">			
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css">			
+			<link rel="stylesheet" href="css/jquery-ui.css">			
+			<link rel="stylesheet" href="css/main.css">
+			<link href="css/icofont/icofont.min.css" rel="stylesheet">
+		    <link href="css/remixicon/remixicon.css" rel="stylesheet">
+		    <link href="css/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+		    <link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+		    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+		    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://www.google.com/recaptcha/api.js"></script>
+            <script>
+               function onSubmit(token) {
+                 document.getElementById("demo-form").submit();
+               }
+            </script>
+		</head>
+		<body>	
+		<!-- EDIT ME -->
+			<header id="header">
+				<div class="container main-menu">
+					<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="index.html"><img src="img/logos/1.png" width="48px" alt="" title=""></a>
+				      </div>
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li><a href="index.html">Home</a></li>
+				          <li><a href="about.html">About</a></li>
+				          <li><a href="research.html">Research</a></li>
+				          <li><a href="tutorials.html">Tutorials</a></li>
+				          <li><a href="teaching.html">Teaching</a></li>
+				           <li><a href="services.html">Services</a></li>			          					          		          
+				          <li><a href="contact.html">Contact</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->		    		
+					</div>
+				</div>
+			</header><!-- #header -->	
+		  <!-- EDIT ME -->
+		  
+
+			<!-- Start Sample Area -->
+			<section class="sample-text-area">
+				<div class="container">
+					<h3 class="text-heading">I love to spread knowledge through my tutorials.</h3>
+                    <p>
+                        An icon <i class="fa fa-file-text-o"></i> indicates that the tutorial is text based, <i class="fa fa-youtube-play"></i> indicates the tutorial is video based and <i class="fa fa-file-powerpoint-o"></i> indicates the tutorial has a presentation. A combination of the tutorial types are indicated by the presence of multiple icons. Please click on the respective icon for the particular type of tutorial. As always if you find a bug please email me.
+                    </p>
+                    <!-- <button class="g-recaptcha" 
+        data-sitekey="6LfPzKkZAAAAAMvjcVh50Tbf2T4wmKfdrfPHZYCw" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button> -->
+				</div>
+			</section>
+			<!-- End Sample Area -->
+			<!-- Start Align Area -->
+			<div class="whole-wrap">
+				<div class="container">
+					<div class="section-top-border">
+						<h3 class="mb-30">Attitude Estimation</h3>
+						<div class="row">
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/attitudeest/cf.png" style="padding-bottom: 15px">
+                                    <h4>What is an IMU? and Complementary Filter</h4>
+                                    <h2> <a href="tutorials/attitudeest/imu.html"><i class="fa fa-file-text-o"></i></a>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=8hRoASoBEwY&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=3"><i class="fa fa-youtube-play"></i></a> </h2>
+                                    <p>This article talks about how an IMU works and how it can be used to obtain attitude using complementary filter.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/attitudeest/MahonyFilterOverview.png" style="padding-bottom: 15px">
+                                    <h4>Mahony Filter</h4>
+                                    <h2> <a href="tutorials/attitudeest/mahony.html"><i class="fa fa-file-text-o"></i></a> </h2>
+                                    <p>This article discusses how one can obtain attitude using the Mahony filter.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/attitudeest/MadgwickFilterOverview.png" style="padding-bottom: 15px">
+                                    <h4> Madgwick Filter</h4>
+                                    <h2> <a href="tutorials/attitudeest/madgwick.html"><i class="fa fa-file-text-o"></i></a>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=8hRoASoBEwY&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=3"><i class="fa fa-youtube-play"></i></a></h2>
+                                    <p>This article discusses how one can obtain attitude using the Madgwick filter.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/attitudeest/bayes.jpg" style="padding-bottom: 15px">
+                                    <h4>Kalman Filter</h4>
+                                    <h2> <a href="tutorials/attitudeest/kf.html"><i class="fa fa-file-text-o"></i></a>&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=EimcWx05GbQ&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=6"><i class="fa fa-youtube-play"></i></a> </h2>
+                                    <p>This article discusses how one can obtain attitude using a linear Kalman filter.</p>
+                                  </div>
+                              </section>
+                            </div>
+						</div>
+                        <hr>
+                        <h3 class="mb-30">ENAE788M: Hands-On Autonomous Aerial Robotics</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/788m/imu.png" style="padding-bottom: 15px">
+                                    <h4>Complementary and Magdwick Filters</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=8hRoASoBEwY&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=3"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://drive.google.com/open?id=1SkKCla7Zkoe3S64YulKstSJewgo6CgDs"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about how an IMU works and how it can be used to obtain attitude using complementary and Madgwick filters.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/788m/kf.png" style="padding-bottom: 15px">
+                                    <h4>Bayes' and Kalman Filters</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=EimcWx05GbQ&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=6"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://drive.google.com/file/d/13RTXVTex2qQbdGcS0Dh-GDC0RQctLgio/view?usp=sharing"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks how an IMU can be used to obtain attitude using a Kalman filter.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/788m/diy.png" style="padding-bottom: 15px">
+                                    <h4>DIY Research Quadrotor</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=_yv0RreYlmE&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=5"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://drive.google.com/open?id=1cAA2SxC-L51ifErkNYFfh_MINandCBce"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class discusses how to hack a Parrot Bebop 2 and how to build your own research quadrotor.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/788m/ukf.png" style="padding-bottom: 15px">
+                                    <h4>Extended and Unscented Kalman Filters</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=SFGqLuXfS0A&list=PLZgpos4wVnCYhf5jsl2HcsCl_Pql6Kigk&index=7"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://drive.google.com/open?id=1AIT2ElbVB_4rS0T1tqXKN_VONUWi80lz"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about the basics of extended and unscented Kalman filters.</p>
+                                  </div>
+                              </section>
+                            </div>
+                        </div>
+
+                         <hr>  
+
+                        <h3 class="mb-30">CMSC828T: Vision, Planning and Control in Aerial Robotics</h3>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/828t/rbd.png" style="padding-bottom: 15px">
+                                    <h4>Transformations and Rotations</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=Jc5PIahEfU4&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=3"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class2%20Rigid%20Body%20Transformations%20+%20Rotations.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about Rigid Body Transformations and Rotation Matrices.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/828t/velocities.png" style="padding-bottom: 15px">
+                                    <h4>Velocities</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=SEDFzDqTbN0&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=4"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class3%20Velocities.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about velocities and manifolds.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/828t/dynamics.png" style="padding-bottom: 15px">
+                                    <h4>Quadrotor Dynamics</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=39mn5ELVHPg&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=5"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class4%20Quadrotor%20Dynamics.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class discusses the mathematical derivation of quadrotor dynamics.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/828t/controls.png" style="padding-bottom: 15px">
+                                    <h4>Quadrotor Controls</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=K9Juj8KQRTM&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=6"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class5%20Quadrotor%20Controls.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about how to control a quadrotor using a cascaded PID controller.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                      <img class="img-fluid" src="img/tutorials/828t/traj.png" style="padding-bottom: 15px">
+                                    <h4>Quadrotor Controls</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=k-QqZPajFSo&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=9"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class8%20Trajectory%20Planning.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    <p>This class talks about how the trajectory planner for a quadrotor works including derivation from Euler Lagrange equations.</p>
+                                  </div>
+                              </section>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+                                <section id="tutorials" class="services">
+                                  <div class="icon-box">
+                                    <a href="https://www.youtube.com/watch?v=k-QqZPajFSo">
+                                      <img class="img-fluid" src="img/tutorials/828t/gtsam.png" style="padding-bottom: 15px">
+                                    <h4>SLAM Using Factor Graphs</h4>
+                                    <h2> <a href="https://www.youtube.com/watch?v=o6jEKbnqvTU&list=PLZgpos4wVnCaWQOIj3pREz1SQ94Rt8Alj&index=11"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp; <a href="https://cmsc828t.github.io/slides/Class10%20GTSAM.pdf"><i class="fa fa-file-powerpoint-o"></i></a> </h2>
+                                    
+                                    <p>This class talks about how one can model the simultaneous localization and mapping problem.</p></a>
+                                  </div>
+                              </section>
+                            </div>
+                            
+            <!-- End top-category-widget Area -->
+                        </div>
+						<hr>
+
+
+					</div>
+				</div>
+			</div>
+
+			
+
+            <!-- start footer Area -->
+            <footer class="footer-area section-gap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>About Me</h4>
+                                <p>
+                                    We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience.
+                                </p>
+                                <p class="footer-text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Newsletter</h4>
+                                <p>Stay updated with our latest trends</p>
+								<div class="" id="mc_embed_signup">
+									 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+									  <div class="input-group">
+									    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+									    <div class="input-group-btn">
+									      <button class="btn btn-default" type="submit">
+									        <span class="lnr lnr-arrow-right"></span>
+									      </button>    
+									    </div>
+									    	<div class="info"></div>  
+									  </div>
+									</form> 
+								</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h4>Follow Me</h4>
+                                <p>Let us be social</p>
+                                <div class="footer-social d-flex align-items-center">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    <a href="#"><i class="fa fa-behance"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End footer Area -->		
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/simple-skillbar.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="js/main.js"></script>	
+		</body>
+	</html>
