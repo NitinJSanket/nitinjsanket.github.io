@@ -94,38 +94,38 @@ $black			: #222;
 
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
-  color: #777777;
+  color: #333333;
   font-weight: 300;
 }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #777777;
+  color: #333333;
   opacity: 1;
   font-weight: 300;
 }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #777777;
+  color: #333333;
   opacity: 1;
   font-weight: 300;
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #777777;
+  color: #333333;
   font-weight: 300;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: #777777;
+  color: #333333;
   font-weight: 300;
 }
 
 body {
-  color: #777777;
+  color: #333333;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -567,6 +567,7 @@ td, th {
 
 .pb-20 {
   padding-bottom: 20px;
+  background-color: #f0f0f0;
 }
 
 .pb-25 {
@@ -923,7 +924,7 @@ td, th {
 
 /*---------- End Elements Page -------------*/
 .sample-text-area {
-  background: #f9f9ff;
+  background: #f0f0f0;
   padding: 100px 0 20px 0;
 }
 
@@ -2488,6 +2489,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-gap-top {
   padding-top: 120px;
+  background-color: #f0f0f0;
 }
 
 .alert-msg {
