@@ -661,6 +661,13 @@ pre code {
   margin-left: auto;
 }
 
+.rowunmod {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
